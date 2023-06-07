@@ -30,10 +30,13 @@ public class Main {
         /*System.out.println("Print value using index");
         System.out.println("Value: " + myLinkedList.get(3).value);*/
 
-        System.out.println("Set a value in the list");
+        /*System.out.println("Set a value in the list");
         myLinkedList.set(2, 4);
         myLinkedList.set(3, 5);
-        myLinkedList.set(-3, 10);
+        myLinkedList.set(-3, 10);*/
+
+        System.out.println("Insert a value in list");
+        myLinkedList.insert(2, 4);
 
         myLinkedList.printList();
 
