@@ -6,8 +6,8 @@ public class Main {
         LinkedList myLinkedList = new LinkedList(2);
 
         myLinkedList.append(3);
+        myLinkedList.append(4);
         myLinkedList.append(5);
-        myLinkedList.append(6);
 
         myLinkedList.printList();
 
@@ -35,8 +35,11 @@ public class Main {
         myLinkedList.set(3, 5);
         myLinkedList.set(-3, 10);*/
 
-        System.out.println("Insert a value in list");
-        myLinkedList.insert(2, 4);
+        /*System.out.println("Insert a value in list");
+        myLinkedList.insert(2, 4);*/
+
+        System.out.println("Remove a value from list");
+        System.out.println("Removed value: " + myLinkedList.remove(2).value);
 
         myLinkedList.printList();
 
