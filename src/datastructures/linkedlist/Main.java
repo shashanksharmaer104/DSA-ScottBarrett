@@ -3,10 +3,10 @@ package datastructures.linkedlist;
 public class Main {
 
     public static void main(String[] args) {
-        LinkedList myLinkedList = new LinkedList(4);
+        LinkedList myLinkedList = new LinkedList(2);
 
+        myLinkedList.append(4);
         myLinkedList.append(6);
-        //myLinkedList.append(8);
 
         myLinkedList.printList();
 
@@ -16,10 +16,18 @@ public class Main {
         System.out.println(myLinkedList.removeLast().value);
         System.out.println(myLinkedList.removeLast());*/
 
-        System.out.println("Prepend the node");
+        /*System.out.println("Prepend the node");
         myLinkedList.prepend(2);
         myLinkedList.prepend(1);
+        myLinkedList.printList();*/
+
+        /*System.out.println("Removing first value");
+        System.out.println("Removed item: " + myLinkedList.removeFirst().value);
         myLinkedList.printList();
+        myLinkedList.getLength();*/
+
+        System.out.println("Print value using index");
+        System.out.println("Value: " + myLinkedList.get(3).value);
 
     }
 }
