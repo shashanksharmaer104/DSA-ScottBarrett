@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
         LinkedList myLinkedList = new LinkedList(2);
 
-        myLinkedList.append(4);
+        myLinkedList.append(3);
+        myLinkedList.append(5);
         myLinkedList.append(6);
 
         myLinkedList.printList();
@@ -26,8 +27,15 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.getLength();*/
 
-        System.out.println("Print value using index");
-        System.out.println("Value: " + myLinkedList.get(3).value);
+        /*System.out.println("Print value using index");
+        System.out.println("Value: " + myLinkedList.get(3).value);*/
+
+        System.out.println("Set a value in the list");
+        myLinkedList.set(2, 4);
+        myLinkedList.set(3, 5);
+        myLinkedList.set(-3, 10);
+
+        myLinkedList.printList();
 
     }
 }
